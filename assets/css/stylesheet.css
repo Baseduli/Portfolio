@@ -1,0 +1,21 @@
+body {
+    background-color: #EDF1D6;
+}
+
+nav{
+    position:absolute;
+    background-color: #9DC08B;
+    top:0;
+    text-align:end;
+    width:100%;
+    height: 25px;
+}
+
+footer{
+    position:absolute;
+    background-color: #9DC08B;
+    bottom:0;
+    text-align:center;
+    width: 100%;
+    
+}
