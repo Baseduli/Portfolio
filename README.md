@@ -30,6 +30,6 @@ Nav bar links can be clicked to bring you to the correct such as "About me", "Wo
 
 The images under "Work" are all links. As of right now the only peace of work I have up is the Horiseon site, that link will open a new tab bringing you to the site. The other two images are place holders, hovering over will make the mouse ready to click a link. All these work boxes are created to display flex and be spaced evenly on the page.
 
-The footer has my contact information created in a unordered list, but the bullet points were removed. The email is formatted to add my email into a new email for you to mail to.
+The footer has my contact information created in a unordered list, but the bullet points were removed. The email is formatted to add my email into a new email for you to mail to. The Github link will link to my github page which has my public repositories available to view.
 
 Had trouble with the @media section below so current version of portfolio is not resizing correctly to corresponding screen size. Commented out the section that isn't working for @media.
