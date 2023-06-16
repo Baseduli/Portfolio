@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     font-family: sans-serif;
     color: white;
     text-decoration: none;
@@ -7,11 +8,15 @@
 
 h1,
 h2 {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 body {
     background-color: #27374D;
+    margin:0;
+    padding:0;
 }
 
 header {
@@ -21,15 +26,13 @@ header {
     background-color: #526D82;
 }
 
-nav {
+nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #526D82;
-}
-
-.about{
-    justify-content: center;
+    border-top: 1px solid lightblue;
+    font-size: 1.1em;
 }
 
 img {
@@ -47,17 +50,13 @@ img {
 
 }
 
-.container{
-    position:relative;
-    min-height: 100vh px;
-}
-
 footer {
-    position:fixed;
+    position:absolute;
     background-color: #526D82;
     bottom: 0;
     text-align: center;
     width: 100%;
+    font-size: 1.1em;
 }
 
 @media screen and (max-width: 768px) {
